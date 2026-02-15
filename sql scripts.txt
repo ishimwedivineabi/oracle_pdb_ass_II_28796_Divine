@@ -1,0 +1,25 @@
+create pluggable database di_pdb_28796 admin user divine_plsqlauca_28796 
+identified by 7777
+roles=(DBA)
+FILE_NAME_CONVERT =('C:\ORACLE19C\ORADATA\ORCL\PDBSEED',
+' ORACLE/ORADATA/ORCL/di_pdb_28796');
+
+
+--SELECT FILE#,NAME,CON_ID
+--FROM V$DATAFILE 
+--WHERE CON_ID=2;
+
+--opening the pluggable database
+ALTER pluggable database di_pdb_28796 open;
+ALTER SESSION SET CONTAINER = di_pdb_28796;
+
+-- creating pluggable database to delete
+CREATE pluggable database di_to_delete_28796
+admin user divine_plsqlauca_28796 IDENTIFIED by 7777
+roles =(DBA)
+FILE_NAME_CONVERT =('C:\ORACLE19C\ORADATA\ORCL\PDBSEED',
+' ORACLE/ORADATA/ORCL/di_to_delete_28796');
+
+
+
+DROP PLUGGABLE DATABASE DI_TO_DELETE_28796 INCLUDING DATAFILES 
