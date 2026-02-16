@@ -38,7 +38,7 @@ roles =(DBA)
 FILE_NAME_CONVERT =('C:\ORACLE19C\ORADATA\ORCL\PDBSEED',
 ' ORACLE/ORADATA/ORCL/di_to_delete_28796');
 
-![WhatsApp Image 2026-02-16 at 2 44 34 PM](https://github.com/user-attachments/assets/6099fee9-ad0f-484e-842a-be2a0819a89a)
+screenshots/WhatsApp Image 2026-02-16 at 2.57.58 PM.jpeg
 
 
 ## Open the temporary PDB
