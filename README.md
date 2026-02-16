@@ -18,14 +18,16 @@ roles=(DBA)
 FILE_NAME_CONVERT =('C:\ORACLE19C\ORADATA\ORCL\PDBSEED',
 ' ORACLE/ORADATA/ORCL/di_pdb_28796');
 
-(screenshots/WhatsApp Image 2026-02-16 at 2.56.22 PM.jpeg)
+![WhatsApp Image 2026-02-16 at 2 56 22 PM](https://github.com/user-attachments/assets/3b54820a-0481-4b0d-bc1b-ba11bb3faeb1)
+
 
 
 ## opening the pluggable database
 ALTER pluggable database di_pdb_28796 open;
 ALTER SESSION SET CONTAINER = di_pdb_28796;
 
-screenshots/WhatsApp Image 2026-02-16 at 2.44.33 PM.jpeg
+![WhatsApp Image 2026-02-16 at 2 44 34 PM](https://github.com/user-attachments/assets/2099052f-cbb9-47c4-9947-0e8bc13a532e)
+
 
 # Task 2: Create and Delete a Temporary PDB
 ### Temporary PDB Details
