@@ -18,7 +18,7 @@ roles=(DBA)
 FILE_NAME_CONVERT =('C:\ORACLE19C\ORADATA\ORCL\PDBSEED',
 ' ORACLE/ORADATA/ORCL/di_pdb_28796');
 
-![WhatsApp Image 2026-02-16 at 2 56 22 PM](https://github.com/user-attachments/assets/cb0f2e23-b0fc-42ef-a823-cd3095f5b710)
+(screenshots/WhatsApp Image 2026-02-16 at 2.56.22 PM.jpeg)
 
 
 ## opening the pluggable database
