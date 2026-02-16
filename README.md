@@ -18,11 +18,15 @@ roles=(DBA)
 FILE_NAME_CONVERT =('C:\ORACLE19C\ORADATA\ORCL\PDBSEED',
 ' ORACLE/ORADATA/ORCL/di_pdb_28796');
 
+![WhatsApp Image 2026-02-16 at 2 56 22 PM](https://github.com/user-attachments/assets/cb0f2e23-b0fc-42ef-a823-cd3095f5b710)
+
 
 ## opening the pluggable database
 ALTER pluggable database di_pdb_28796 open;
 ALTER SESSION SET CONTAINER = di_pdb_28796;
-________________________________________
+
+![WhatsApp Image 2026-02-16 at 2 56 22 PM](https://github.com/user-attachments/assets/faff2775-7e31-4b55-9779-3268fffb77a8)
+
 # Task 2: Create and Delete a Temporary PDB
 ### Temporary PDB Details
 •	Temporary PDB Name: di_to_delete_28796
@@ -34,6 +38,9 @@ roles =(DBA)
 FILE_NAME_CONVERT =('C:\ORACLE19C\ORADATA\ORCL\PDBSEED',
 ' ORACLE/ORADATA/ORCL/di_to_delete_28796');
 
+![WhatsApp Image 2026-02-16 at 2 44 34 PM](https://github.com/user-attachments/assets/6099fee9-ad0f-484e-842a-be2a0819a89a)
+
+
 ## Open the temporary PDB
 ALTER PLUGGABLE DATABASE di_to_delete_28796 OPEN;
 
@@ -43,6 +50,8 @@ ALTER PLUGGABLE DATABASE di_to_delete_28796 CLOSE IMMEDIATE;
 
 ## Drop the PDB including datafiles
 DROP PLUGGABLE DATABASE di_to_delete_28796 INCLUDING DATAFILES;
+![WhatsApp Image 2026-02-16 at 2 44 35 PM](https://github.com/user-attachments/assets/04df038c-8cda-499f-8ac1-1ef8dd41e73c)
+
 
 ## Verify deletion
 SELECT name, open_mode FROM v$pdbs WHERE name = 'di_to_delete_28796';
